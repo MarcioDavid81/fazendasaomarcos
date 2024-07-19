@@ -6,6 +6,12 @@
 body{
     font-family: Arial, sans-serif;
 }
+:root{
+    --primary-color: #02A0E3;
+    --secondary-color: #D1D1D1;
+    --tertiary-color: #FF8800;
+    --text-color: #262626;
+}
 
 .interface{
     max-width: 1000px;
