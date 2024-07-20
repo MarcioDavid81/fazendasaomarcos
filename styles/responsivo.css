@@ -1,0 +1,49 @@
+@media (width <= 900px) {
+    /* Responsivo do header */
+    header .btn-menu-mob{
+        display: block;
+    }
+    header .menu-desktop, header .btn-contato{
+        display: none;
+    }
+    /* Responsivo do menu dinâmico */
+    header.rolar{
+        background-color: var(--secondary-color);
+        color: var(--secondary-color);
+        padding: 5px 0;
+        transition: all 0.7s;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+        border-radius: 0 0 50px 0;
+    }
+    /* Responsivo da section hero */
+    section.hero-site{
+        background-attachment: scroll;
+    }
+    .hero-site .txt-hero h1{
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+    .hero-site .txt-hero p{
+        font-size: 1.1rem;
+    }
+    .hero-site .txt-hero p span{
+        display: block;
+    }
+    .hero-site .btn-contato button{
+        font-size: 1rem;
+    }
+    /* Responsivo da section sobre */
+    section.sobre-site{
+        height: auto;
+    }
+    section.sobre-site .interface{
+        flex-direction: column;
+    }
+    .sobre-site .txt-sobre h2{
+        font-size: 2.0rem;
+    }
+    .sobre-site .txt-sobre p{
+        text-align: justify;
+        font-size: 1.0rem;
+    }
+}

@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Global -->
     <link rel="stylesheet" href="styles/style.css">
+    <!-- CSS Responsivo -->
+    <link rel="stylesheet" href="styles/responsivo.css">
+    <!-- Favicon -->
     <link rel="shortcut icon" href="imgs/saomarcos.jpg" type="image/x-icon">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins&display=swap" rel="stylesheet">
     <title>Fazenda São Marcos</title>
 </head>
 <body>
+    <!-- Header -->
     <header class="js-menu" id="header">
         <div class="interface">
             <section class="logo">
@@ -27,12 +36,43 @@
             <section class="btn-contato">
                 <a href="#"><button>Contato</button></a>
             </section>
+
+            <!-- Menu Mobile -->
+            <div class="btn-menu-mob" id="btn-menu-mob">
+                <div class="line-menu-mob-1"></div>
+                <div class="line-menu-mob-2"></div>
+            </div>
+            <section class="menu-mobile" id="menu-mobile">
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                    </ul>
+                </nav>
+            </section>
         </div>
     </header>
-
+    <!-- Hero -->
     <section class="hero-site" id="inicio">
         <div class="interface">
-            
+           <div class="txt-hero">
+                <h1>Fazenda <span>São Marcos</span></h1>
+                <p>Cultivando o Futuro com Sustentabilidade e Excelência <span>.</span></p>
+                <a href="#sobre" class="btn-contato"><button class="scroll-txt-button">Saiba Mais</button></a>
+           </div>
+        </div>
+    </section>
+    <!-- Sobre -->
+    <section class="sobre-site" id="sobre">
+        <div class="interface">
+            <div class="txt-sobre">
+                <h2>Sobre Nós</h2>
+                <p>Na Fazenda São Marcos, nossa dedicação à produção de soja, milho e trigo é guiada pela paixão pela terra e o compromisso com a sustentabilidade. Com métodos inovadores e práticas agrícolas responsáveis, garantimos a máxima qualidade dos nossos grãos, enquanto preservamos o meio ambiente e impulsionamos a economia local. Venha conhecer uma nova era na agricultura, onde tradição e modernidade se encontram para colher os melhores frutos <span>.</span></p>
+            </div>
+            <div class="img-sobre">
+                <img src="imgs/colheita.jpg" alt="Fazenda São Marcos">
+            </div>
         </div>
     </section>
 
