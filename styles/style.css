@@ -152,7 +152,6 @@ header .menu-mobile nav a{
     &:hover{
         background-color: var(--secondary-color);
         color: var(--text-color);
-        box-shadow: 0 0 20px #fff;
     }
 }
 body.no-overflow{
@@ -161,12 +160,10 @@ body.no-overflow{
 
 /* Estilo do header dinâmico */
 header.rolar{
-    background-color: var(--secondary-color);
-    color: var(--secondary-color);
+    background-color: var(--found-color);
     padding: 5px 0;
     transition: all 0.7s;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-    border-radius: 0 0 250px 0;
 }
 
 /* Estilo do hero */
@@ -238,7 +235,7 @@ section.sobre-site{
     padding: 30px 0;
 }
 .sobre-site .img-sobre img{
-    max-width: 500px;
+    width: 500px;
     height: auto;
     border-radius: 20px;
     box-shadow: 30px 30px 0 var(--primary-color);
