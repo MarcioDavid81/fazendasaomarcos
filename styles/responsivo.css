@@ -44,6 +44,9 @@
     }
     .sobre-site .txt-sobre p{
         text-align: justify;
-        font-size: 1.0rem;
+        font-size: 1rem;
+    }
+    .sobre-site .img-sobre img{
+        width: 95%;
     }
 }

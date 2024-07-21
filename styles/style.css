@@ -238,7 +238,7 @@ section.sobre-site{
     padding: 30px 0;
 }
 .sobre-site .img-sobre img{
-    max-width: 500px;
+    width: 500px;
     height: auto;
     border-radius: 20px;
     box-shadow: 30px 30px 0 var(--primary-color);
