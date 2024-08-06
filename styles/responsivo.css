@@ -38,6 +38,7 @@
         flex-direction: column;
     }
     .sobre-site .txt-sobre h2{
+        text-align: center;
         font-size: 2.0rem;
     }
     .sobre-site .txt-sobre p{
@@ -52,20 +53,21 @@
         height: auto;
     }
     section.localizacao-site .interface{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .localizacao-site .txt-localizacao h2{
         font-size: 2.0rem;
+        text-align: center;
     }
     .localizacao-site .txt-localizacao p{
-        padding: 0;
         text-align: justify;
         font-size: 1rem;
     }
-  
+    .localizacao-site .img-localizacao{
+        padding-left: 20px;
+    }
     .localizacao-site .img-localizacao img{
-        width: 341.21px;
-        height: 227.25px;
+        width: 100%;
     }
     /* Responsivo do footer */
     footer .interface{
