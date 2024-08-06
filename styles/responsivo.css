@@ -47,4 +47,32 @@
     .sobre-site .img-sobre img{
         width: 95%;
     }
+    /* Responsivo da section localização */
+    section.localizacao-site{
+        height: auto;
+    }
+    section.localizacao-site .interface{
+        flex-direction: column;
+    }
+    .localizacao-site .txt-localizacao h2{
+        font-size: 2.0rem;
+    }
+    .localizacao-site .txt-localizacao p{
+        padding: 0;
+        text-align: justify;
+        font-size: 1rem;
+    }
+  
+    .localizacao-site .img-localizacao img{
+        width: 341.21px;
+        height: 227.25px;
+    }
+    /* Responsivo do footer */
+    footer .interface{
+        flex-direction: column;
+    }
+    #copy-footer {
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
 }

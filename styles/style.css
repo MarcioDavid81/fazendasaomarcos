@@ -165,6 +165,17 @@ header.rolar{
     transition: all 0.7s;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
+header.rolar .btn-contato button{
+    background-color: var(--text-color);
+    color: var(--found-color);
+    border: none;
+
+    &:hover{
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+        border: 1px solid var(--text-color);
+    }
+}
 
 /* Estilo do hero */
 section.hero-site{
@@ -276,9 +287,9 @@ section.localizacao-site{
 }
 .localizacao-site .img-localizacao img{
     width: 500px;
-    height: 350px;
+    height: 333.16px;
     border-radius: 20px;
-    box-shadow: 30px 30px 0 var(--primary-color);
+    box-shadow: -30px 30px 0 var(--primary-color);
 }
 /* Estilo do Footer */
 footer.footer-site{
